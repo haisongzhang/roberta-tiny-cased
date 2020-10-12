@@ -1,6 +1,6 @@
 # RoBERTa-tiny-cased
 
-A small case-preserving RoBERTa model pre-trained for production use. Feel free to download our model from here or from [HuggingFace model hub](https://huggingface.co/raleighhan/roberta-tiny-cased).
+A small case-preserving RoBERTa model pre-trained for production use. Feel free to download our model from here or from [HuggingFace model hub](https://huggingface.co/haisongzhang/roberta-tiny-cased).
 
 ### Model Parameters
 
