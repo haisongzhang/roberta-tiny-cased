@@ -55,9 +55,9 @@ Our pre-trained model is specially suitable for low latency applications. Combin
 ```python
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
-tokenizer = AutoTokenizer.from_pretrained("raleighhan/roberta-tiny-cased")
+tokenizer = AutoTokenizer.from_pretrained("haisongzhang/roberta-tiny-cased")
 
-model = AutoModelWithLMHead.from_pretrained("raleighhan/roberta-tiny-cased")
+model = AutoModelWithLMHead.from_pretrained("haisongzhang/roberta-tiny-cased")
 ```
 
 **Note**: When loading the tokenizer in transformers, use BertTokenizer instead of RobertaTokenizer since Wordpiece was used in this model. 
