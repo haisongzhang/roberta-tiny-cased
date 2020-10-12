@@ -43,7 +43,7 @@ We fine-tuned our RoBERTa-tiny (cased) model on all tasks from [GLUE](https://gl
 | BERT-small (**uncased**)       | 71.2     | 27.8     | 89.7     | 83.4/76.2     | 78.8/77.0     | 68.1/87.0     | 77.6     | 77.0     | **86.4** | 61.8     | 62.3     |
 | RoBERTa-tiny (**cased**, ours) | **74.0** | **35.9** | **89.8** | **86.2/81.8** | **83.8/82.7** | **68.9/88.2** | **77.7** | **77.2** | 85.9     | **66.5** | **65.1** |
 
-For RTE, STS, QNLI and MRPC, we followed RoBERTa and fine-tuned using an MNLI checkpoint. For each task, we selected the best fine-tuning hyperparameters from the lists below, and trained for 4 epochs:
+For RTE, STS, MRPC and QNLI, we found it helpful to finetune starting from the MNLI single-task model, rather than the baseline pretrained RoBERTa. For each task, we selected the best fine-tuning hyperparameters from the lists below, and trained for 4 epochs:
 
 - batch sizes: 8, 16, 32, 64, 128
 - learning rates: 3e-4, 1e-4, 5e-5, 3e-5
