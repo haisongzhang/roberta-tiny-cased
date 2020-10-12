@@ -64,7 +64,7 @@ model = AutoModelWithLMHead.from_pretrained("raleighhan/roberta-tiny-cased")
 
 ### Acknowledgement
 
-This work was done during my internship at Tencent AI Lab under the supervision of [@haisongzhang](https://github.com/haisongzhang)
+This work was done by my intern [@raleighhan](https://github.com/RaleighHan)(撖朝润) during his internship at NLP Group of Tencent AI Lab.
 
 ### References
 
